@@ -40,6 +40,6 @@ class HomeFragment : Fragment() {
     }
 
     fun performAddition(num1: Int, num2: Int) : Int {
-        return 0
+        return num1 + num2
     }
 }
