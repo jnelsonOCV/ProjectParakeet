@@ -20,4 +20,13 @@ class HomeSwitchUnitTest {
             assert(homeFrag.switchText.text.toString() == "On")
         }
     }
+
+    @Test
+    fun performAddition_Nominal() {
+        val num1 = 5
+        val num2 = 13
+        val expected = num1 + num2
+        val actual = HomeFragment().performAddition(num1, num2)
+        assert(actual == expected)
+    }
 }

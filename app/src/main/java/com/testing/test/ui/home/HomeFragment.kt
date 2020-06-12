@@ -38,4 +38,8 @@ class HomeFragment : Fragment() {
         }
         return root
     }
+
+    fun performAddition(num1: Int, num2: Int) : Int {
+        return 0
+    }
 }
